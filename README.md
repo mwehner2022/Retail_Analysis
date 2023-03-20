@@ -75,6 +75,16 @@ The Region with the highest demand amount based was the South at $5,544,452.10. 
 
 The Ethnicity with the highest purchase demand was Western Europeans “K” at 180366 and the lowest was Polynesian “H” at 4
 
+This shows the lifetime demand by basic count
+https://public.tableau.com/app/profile/mark.o.brien7928/viz/Ethnicgroupbubble/Sheet2?publish=yes
+
+This shows average lifetime demand in an average instead of basic count
+https://public.tableau.com/app/profile/mark.o.brien7928/viz/Ethnicgroupbubble/Sheet22?publish=yes
+
+
+
+
+
 ## Machine Learning Model
 
 ## Summary
