@@ -43,15 +43,11 @@ The dataset was cleaned using Pandas. Data types were changed to either INT or D
 - Example:  LOYALTY_ENROLLMENT_DT was only included for a small percentage of rows so it did not contribute to the overall analysis.
 - Analysis was performed for customers with LIFETIME_APPAREL_DEMAND that was less than $100,000.
 
-(insert images of scatter plots, with and without outliers?)
-
 ## Database
 
 A database was created in pgAdmin4 from the cleaned data set. It was broken up into multiple tables including:. Using SQL, multiple queries were run on the data to further explore the features and their impact on customer lifetime demand. 
 
-(need to expand on real vs ideal database)
-
-![Link to image of tables](Database/Images/ERD2.png)
+![Link to image of tables](Database/Images/ERD_2.png)
 
 ## Demographic Exploratory Analysis
 
