@@ -66,7 +66,7 @@ Initial analysis to identify potential groupings that might affect customer dema
 - Customer ages were put into buckets for easier analysis: < 30 years old, 31-40 years old, 41-50 years old, 51-60 years old, 61-70 years old, 71-80 years old, 80+ years old.
 - The age group with the highest average lifetime demand was 71-80 years old
 
-![age3](images/age_imgaes/avg_total_demand_by_age_pie.png)
+![age3](images/age_images/avg_total_demand_by_age_pie.png)
 
 - The age group with the highest total  lifetime demand was also 41-50 years old.
 
