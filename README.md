@@ -105,7 +105,9 @@ Discoveries made included:
 
 #### Ethnicity Analysis
 
--The Ethnicity with the highest purchase demand was Western Europeans “K” at 180366 and the lowest was Polynesian “H” at 4
+- In general, the Ethnicity with the highest purchase demand was Western Europeans “K” at 180366 and the lowest was Polynesian “H” at 4.  Western Europeans are overwhelmingly the biggest purchasers.
+- In the Retail Industry, there is a popular Model for Predicting Number of Purchase.  It is called BG/NBD "Beta Geometric/Negative Binomial Distribution Model"  Here is what this model shows us![BG NBD Model Predictions](https://user-images.githubusercontent.com/115684964/227410198-b431c3ff-8b64-4d10-980d-46f61725a4e4.jpg)
+
 
 ## Machine Learning Model
 The model chosen to predict customer lifetime value was a Random Forest Regression. This model uses ensemble learning, meaning it trains multiple weak learners then combines their predictions before training more weak learners.  This leads to a more robust model that is less susceptible to erroneous data. 
