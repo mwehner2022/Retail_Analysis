@@ -78,12 +78,9 @@ Initial analysis to identify potential groupings that might affect customer dema
 
 - The income brackets with the highest concentration of Anthropologie customers are between $75,000 and $124,999 a year as well as customers with incomes $200,000 and above. Customers making less than $75k a year are uncommon. Customers making between $125k and $200k are also less frequent.
 
-![income_count](images/income_customer_count.png)
+![income_count](images/amt_spent_income.png)
 
 - The income bracket with the highest lifetime spending was $100,000-$124,999.
-
-![amount_spent]images/income_amount_spent.png)
-
 - The income bracket with the highest lifetime quantity purchased was $100,000-$124,999.
 
 #### Location Analysis
