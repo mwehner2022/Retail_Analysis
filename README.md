@@ -112,6 +112,8 @@ Additional charts and pivot tables were created using Tableau and Python to exam
 
 The Ethnicity with the highest lifetime demand was Western European, “K”, at 24,429,177 followed by Mediterranean, “E”, at 4,114,130. The lowest ethnicity group for lifetime demand was Native American at $21,004. While Western Europeans dominate the overall lifetime demand, there is opportunity to attract other ethnic groups and grow their demand.
 
+![data](images/lifetime_count_New.PNG)
+
 U.S. population is important to consider when analyzing this data as well. Population and Ethnicity are strongly correlated. The U.S. Census Bureau states the US is composed of about 70 percent Caucasian Americans, about 12 percent African Americans, about 4 percent Asian Americans, almost 13 percent Hispanics and almost one percent Native Americans. This gives us insight to why our charts show Western Europeans dominating in Lifetime demand.
 Source: "Human Pursuit of Happiness in the World of Goods". MYCBBOOK.COM © Open Mentis 2013.
 
