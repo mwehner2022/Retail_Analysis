@@ -42,11 +42,11 @@ The dataset was cleaned using Pandas. Data types were changed to DATETIME for th
 
 A customer database was created in pgAdmin4 from the original data set. It was broken up into multiple tables including the complete data, a table of ethnicity codes, and a table or income brackets. We recognize that this database ERD is unrealistic, and that is because we received the data already joined by the Anthropology team.
 
-<img src="Database/Images/ERD_2.png" width=70% height=70%>
+<img src="Database/Images/ERD_2.png" width=60% height=60%>
 
 In an ideal setting, the customer database would be representative of how a company might utilize it. Pictured below is the expected database for a retailer. This database contains far more tables that interact on different primary keys. The relationships between the tables could be used to run SQL queries identifying patterns and trends in consumer behavior.
 
-<img src="Database/Images/ERD_1.png" width=70% height=70%>
+<img src="Database/Images/ERD_1.png" width=60% height=60%>
 
 ## Demographic Exploratory Analysis
 
@@ -126,7 +126,7 @@ Source: "Human Pursuit of Happiness in the World of Goods". MYCBBOOK.COM © Open
 - Aggregate columns for Customer Spend (min, max, mean, and median for order dollars and quantities), percent direct orders vs in-store, and the average time between each order were created per customer ID. These aggregate columns were combined with the IID (customer ID) dataset so only relevant data was included in the model. 
 - Categorical data was changed into numeric data using sklearn Ordinal Encoder, and we created a random integer column to use a baseline for feature importance. If a feature was less important than the random integer column, they were dropped from the feature set and the model was re-run. 
 
-![ordinal](images/ordinal.png) <img src="images/Thisone_regression_features.png" width=80% height=80%>
+![ordinal](images/ordinal.png) <img src="images/Thisone_regression_features.png" width=60% height=60%>
 
 In every model, the features that had the most impact on the model’s performance were:
 - Max_dollars= .286 This is the maximum dollar amount spent by a customer. 
