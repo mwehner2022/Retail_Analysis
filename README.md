@@ -173,7 +173,7 @@ Tableau was utilized to further explore and visualize the relationship between t
 
 ![features1](images/feature_vs_ltv.png)
 
-###Summary
+### Summary
 
 In summary the best performing Model was the Random Forest Regression with hyperparameter tuning resulting in the lowest mean absolute error. The features that held the most importance to the model were 
 Max_dollars, Day_diffe_mean, Days_diff_max, Max_quantity and Min_dollars. Based on these features and their relationship to Customer Lifetime Demand, customers with higher max dollar spend, higher minimum value spend, higher maximum quantity of items purchased, low mean difference of time between purchases and low max time between purchases tend to have higher lifetime value while the inverse had a lower lifetime demand.
