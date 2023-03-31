@@ -32,7 +32,7 @@ When we approached the Anthropologie team about what data they would be willing 
 
 A dataset was acquired from a US retailer that spans across 3 years. This dataset included information on the customer, what the customer ordered such as price, department, and order quantity, their order history, and their demographics. For privacy purposes, the dataset is not included in this repository.
 
-<img src="images/data_dictionary.png" width=50% height=50%>
+<img src="images/data_dictionary.png" width=70% height=70%>
 
 ## Data Cleaning
 
@@ -42,11 +42,11 @@ The dataset was cleaned using Pandas. Data types were changed to DATETIME for th
 
 A customer database was created in pgAdmin4 from the original data set. It was broken up into multiple tables including the complete data, a table of ethnicity codes, and a table or income brackets. We recognize that this database ERD is unrealistic, and that is because we received the data already joined by the Anthropology team.
 
-![Link to image of tables](Database/Images/ERD_2.png)
+<img src="Database/Images/ERD_2.png" width=70% height=70%>
 
 In an ideal setting, the customer database would be representative of how a company might utilize it. Pictured below is the expected database for a retailer. This database contains far more tables that interact on different primary keys. The relationships between the tables could be used to run SQL queries identifying patterns and trends in consumer behavior.
 
-![Link to image of tables](Database/Images/ERD_1.png)
+<img src="Database/Images/ERD_1.png" width=70% height=70%>
 
 ## Demographic Exploratory Analysis
 
@@ -65,11 +65,11 @@ Initial analysis to identify potential groupings that might affect customer dema
 - Customer ages were put into buckets for easier analysis: < 30 years old, 31-40 years old, 41-50 years old, 51-60 years old, 61-70 years old, 71-80 years old, 80+ years old.
 - The age group with the highest average lifetime demand was 71-80 years old
 
-![age3](images/age_images/avg_total_demand_by_age_pie.png)
+<img src="images/age_images/avg_total_demand_by_age_pie.png" width=80% height=80%>
 
 - The age group with the highest total lifetime demand was 41-50 years old.
 
-![age4](images/age_images/sum_total_demand_by_age_pie.png)
+<img src="images/age_images/sum_total_demand_by_age_pie.png" width=80% height=80%>
 
 - One group that could be potentially targeted for growth is the “under 30 years old” customer group, who are barely represented in the sales data.
 
@@ -126,7 +126,7 @@ Source: "Human Pursuit of Happiness in the World of Goods". MYCBBOOK.COM © Open
 - Aggregate columns for Customer Spend (min, max, mean, and median for order dollars and quantities), percent direct orders vs in-store, and the average time between each order were created per customer ID. These aggregate columns were combined with the IID (customer ID) dataset so only relevant data was included in the model. 
 - Categorical data was changed into numeric data using sklearn Ordinal Encoder, and we created a random integer column to use a baseline for feature importance. If a feature was less important than the random integer column, they were dropped from the feature set and the model was re-run. 
 
-![ordinal](images/ordinal.png) ![features](images/Thisone_regression_features.png)
+![ordinal](images/ordinal.png) <img src="images/Thisone_regression_features.png" width=80% height=80%>
 
 In every model, the features that had the most impact on the model’s performance were:
 - Max_dollars= .286 This is the maximum dollar amount spent by a customer. 
