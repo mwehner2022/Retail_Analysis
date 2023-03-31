@@ -92,11 +92,11 @@ In order to perform the analysis on customer location, the uszipcode library was
 - Northeast: PA, NY, VT, ME, NH, MA, CT, RI, NJ
 - Other: AE, AP
 
-<img src="images/region.png" width=80% height=80%>
+<img src="images/region.png" width=50% height=50%>
 
 The initial table created was a bar plot looking at lifetime demand compared to a customer’s region, pictured above. The region with the highest lifetime apparel demand amount was the South at $12,500,818.04 followed by the West. 
 
-<img src="images/state.png" width=70% height=70%>
+<img src="images/states.png" width=50% height=50%>
 
 Additional charts and pivot tables were created using Tableau, above, and Python to examine other trends with customer state and region. Other discoveries made included: 
 - California had the highest demand in both demand and quantity followed by Texas, New York, and Illinois.
