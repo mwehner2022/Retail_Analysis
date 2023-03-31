@@ -195,7 +195,7 @@ If we had more time, we would use K-means clustering on the most important featu
 
 In addition, if we had more time, we would try to predict the next six months or so of purchases for the top 25% of customers identified within our dataset. This would then, ideally, be compared to the real order data of the top 25% to see if the model was accurate. 
 
-Bibliography 
+### Bibliography 
 https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
 https://www.datasource.ai/uploads/1e5660e1137e60077935fc8c1b92578e.html
 https://medium.com/@ugursavci/customer-lifetime-value-prediction-in-python-89e4a50df12e
