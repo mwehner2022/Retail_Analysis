@@ -80,7 +80,7 @@ Initial analysis to identify potential groupings that might affect customer dema
 ![income_count](images/income_images/income_customer_count.png)
 - Most Anthropologie customers make more than 100k annually.
 
-![amt_spent_income](images/income_images/amt_spent_income.png)
+![amt_spent_income](images/income_images/income_amount_spent.png)
 - The income bracket with the highest lifetime spending was $100,000-$124,999.
 
 #### Location Analysis
