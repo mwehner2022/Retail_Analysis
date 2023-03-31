@@ -32,7 +32,7 @@ When we approached the Anthropologie team about what data they would be willing 
 
 A dataset was acquired from a US retailer that spans across 3 years. This dataset included information on the customer, what the customer ordered such as price, department, and order quantity, their order history, and their demographics. For privacy purposes, the dataset is not included in this repository.
 
-![data](images/data_dictionary.png)
+![data](images/data_dictionary.png width="400" height="400")
 
 ## Data Cleaning
 
