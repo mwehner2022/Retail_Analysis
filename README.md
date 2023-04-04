@@ -8,21 +8,19 @@ The goal of this project is to make predictions about a customer based on previo
 
 * Can customer lifetime purchase be accurately determined based on certain buying behaviors, demographic and aggregate features? If the answer is yes, which features are most important in the model prediction? 
 
-We based our question off of one that the Anthropologie team is currently working to answer which is “What can we do so that URBN and its brands occupy more of a consumer's closet space?” We then chose to re-interpret the Anthropologie team’s question to more specifically look at the LIFETIME-DEMAND-AMOUNT column of the dataset. 
-
-When we approached the Anthropologie team about what data they would be willing to share with us, we weren’t 100% sure what types of data that they would be willing to share with us due to data privacy and confidentiality requirements. We gave them a list of fields and data types that we ideally wanted our dataset to have, but we were flexible with their constraints and how the data may come to us, i.e. one CSV or many CSVs.
+We chose this topic because it is currently of interest to the Anthropologie team. In their words “how can Anthropologie occupy more of a customer's closet space?” We then chose to re-interpret the Anthropologie team’s question to more specifically look at the LIFETIME-DEMAND-AMOUNT column of the dataset. 
 
 ## Links
 
 - Project Slides: [Slide Link](https://docs.google.com/presentation/d/1t2-KWQom2fe83HFV_6Ij2cqNIqFPrRmsQRdB6cvJqaQ/edit?usp=sharing)
-- Tableau: [Link to tableau](https://public.tableau.com/views/AnthropologieAnalysis/MapView?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-
+- Tableau: [Link to tableau](https://public.tableau.com/views/RetailAnalysis-Anthropologie/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Process
 
 - Perform exploratory analysis on demographic features
 - Determine how demographics can be used to segment the customer base and their overall importance to customer lifetime demand. 
-- Determine how demographics and previous behavior affect a customer’s propensity to buy using machine learning models to predict customer spend.
+- Determine how demographics and previous behavior affect a customer’s lifetime demand by using machine learning models to predict customer spend.
+- Anaylze features most important to the model
 
 ## Resources
 
@@ -30,7 +28,9 @@ When we approached the Anthropologie team about what data they would be willing 
 
 ## The Data 
 
-A dataset was acquired from a US retailer that spans across 3 years. This dataset included information on the customer, what the customer ordered such as price, department, and order quantity, their order history, and their demographics. For privacy purposes, the dataset is not included in this repository.
+When we approached the Anthropologie team about what data they would be willing to share with us, we weren’t 100% sure what types of data that they would be willing to share with us due to data privacy and confidentiality requirements. We gave them a list of fields and data types that we ideally wanted our dataset to have, but we were flexible with their constraints and how the data may come to us, i.e. one CSV or many CSVs.
+
+The dataset acquired spans across 3 years. It included information on the customer, like what the customer ordered such as price, department, and order quantity, their order history, and their demographics. For privacy purposes, the dataset is not included in this repository.
 
 <img src="images/data_dictionary.png" width=70% height=70%>
 
@@ -50,7 +50,7 @@ In an ideal setting, the customer database would be representative of how a comp
 
 ## Demographic Exploratory Analysis
 
-Initial analysis to identify potential groupings that might affect customer demand was performed by looking at pivot tables and summaries of the data frame. After further investigation, there was an opportunity to explore the relevance of four customer demographic features including: Age, Location, Income, and Ethnicity. The four features were analyzed separately in order to evaluate how they individually affected total customer demand. Multiple graphs and charts were created to understand each demographic's impact on customer spend. Additional visualizations were created within Tableau.  [Link to tableau](https://public.tableau.com/views/AnthropologieAnalysis/MapView?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Initial analysis to identify potential groupings that might affect customer demand was performed by looking at pivot tables and summaries of the data frame. After further investigation, there was an opportunity to explore the relevance of four customer demographic features including: Age, Location, Income, and Ethnicity. The four features were analyzed separately in order to evaluate how they individually affected total customer demand. Multiple graphs and charts were created to understand each demographic's impact on customer spend. Additional visualizations were created within Tableau.  [Link to tableau](https://public.tableau.com/views/RetailAnalysis-Anthropologie/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 #### Age Analysis
 
@@ -169,7 +169,7 @@ XGBoost Model results after tuning:
 - Mean Squared Error: 10390825.21
 
 
-Tableau was utilized to further explore and visualize the relationship between the top important features in the machine learning model compared to the demographics analyzed earlier in the project.  [Link to tableau](https://public.tableau.com/views/AnthropologieAnalysis/MapView?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Tableau was utilized to further explore and visualize the relationship between the top important features in the machine learning model compared to customer lifetime demand.  [Link to tableau](https://public.tableau.com/views/RetailAnalysis-Anthropologie/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ![features1](images/feature_vs_ltv.png)
 
